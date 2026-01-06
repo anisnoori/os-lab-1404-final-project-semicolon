@@ -1,3 +1,3 @@
-src/mytool.sh usr/bin/
-config/mytool.conf etc/
-man/mytool.1 usr/share/man/man1/
+src/mytool.sh usr/bin/sys-mon
+config/sys-mon.conf etc/sys-mon.conf 
+man/sys-mon.1 usr/share//man/man1/sys-mon.1.gz
