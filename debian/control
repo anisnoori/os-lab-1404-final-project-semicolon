@@ -1,17 +1,14 @@
 Source: mytool
 Section: utils
 Priority: optional
-Maintainer: Team Name <team-email@example.com>
+Maintainer: sys-mon <anisgulnoori93@gmail.com>
 Build-Depends: debhelper-compat (= 13)
-Standards-Version: 4.6.2
+Standards-Version:1.0
 
-Package: mytool
+Package: sys-mon
 Architecture: all
-Depends: ${misc:Depends}
-Description: Example Bash tool packaged into a .deb
- This package contains a Bash-based command-line tool template.
- Your team should replace the script in src/ with your own code.
- .
+Depends: bash (>= 4.0), procps, grep, awk
+Description:ابزار خط فرمان برای مانیتورینگ CPU و RAM 
  CRITICAL: Change "mytool" to your actual project name throughout this file!
  Update the Maintainer field with your team information.
  Update the Description to describe what your tool actually does.
